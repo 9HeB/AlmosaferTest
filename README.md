@@ -1,37 +1,46 @@
-# Almosafer Test Project
+# 🌍 Almosafer Test Project
 
-This project is an automated UI test suite for a travel booking website using **Java**, **Selenium WebDriver**, and **TestNG**. The suite includes a variety of functional checks including UI language, currency, date selection, localization, and search functionality.
+Welcome to the **Almosafer Test Project**, a powerful UI test suite designed to validate the core functionalities of a travel booking website.
 
----
-
-## 🛠️ Technologies Used
-
-- **Java**
-- **Selenium WebDriver**
-- **TestNG**
-- **ChromeDriver**
-- **Maven** (optional for dependency management)
-
----
-
-
-
-## ✅ Test Cases Overview
-
-| Priority | Test Name                         | Description |
-|----------|-----------------------------------|-------------|
-| 1        | `CheckWebSiteLanguage`            | Verifies default language is English (`lang="en"`). |
-| 2        | `CheckCurrency`                   | Checks if the default currency matches the expected one. |
-| 3        | `CheckContactNumber`              | Verifies that the displayed contact number is correct. |
-| 4        | `CheckQitafLogo`                  | Confirms that the Qitaf logo is visible in the footer. |
-| 5        | `CheckHotelTabIsNotSelected`      | Ensures the hotel tab is not selected by default. |
-| 6        | `FLightDepatureDate`              | Checks that the default departure date is correct. |
-| 7        | `FlightReturnDate`                | Checks that the default return date is correct. |
-| 8        | `ChangeTheWebsiteLanguage`        | Opens a random localized version of the site and checks the language. |
-| 9        | `RandomlySelectCityAndOccupancy`  | Selects a city and occupancy randomly for hotel search. |
-| 10       | `ClickSearchHotelsButton`         | Clicks the search button to look for hotels. |
-| 11       | `ValidateSearchResultsPage`       | Verifies search results are shown and contain correct localized messages. |
+This suite includes tests for:
+- 🌐 Website language detection
+- 💱 Currency verification
+- 📞 Contact information validation
+- 🏨 Hotel tab behavior
+- 📅 Date selections
+- 🌍 Localization
+- 🔍 Hotel search functionality
 
 ---
 
+## 🚀 Technologies Used
 
+- **Java** - Core programming language
+- **Selenium WebDriver** - Browser automation
+- **TestNG** - Test framework
+- **ChromeDriver** - Browser driver for Chrome
+- **Maven** *(optional)* - Dependency and build management
+
+
+---
+
+## 🧪 Test Suite Overview
+
+Here’s a breakdown of all the test cases with priorities and functionality:
+
+| Priority | ✅ Test Method                     | 🔍 What It Does |
+|----------|------------------------------------|------------------|
+| 1        | `CheckWebSiteLanguage()`           | Ensures the website defaults to English (`lang="en"`). |
+| 2        | `CheckCurrency()`                  | Verifies displayed currency matches the expected one. |
+| 3        | `CheckContactNumber()`             | Confirms the contact number is correct. |
+| 4        | `CheckQitafLogo()`                 | Checks that the Qitaf logo appears in the footer. |
+| 5        | `CheckHotelTabIsNotSelected()`     | Makes sure hotel tab isn’t selected by default. |
+| 6        | `FLightDepatureDate()`             | Validates the default departure date is set correctly. |
+| 7        | `FlightReturnDate()`               | Validates the default return date. |
+| 8        | `ChangeTheWebsiteLanguage()`       | Loads a random language version and validates the change. |
+| 9        | `RandomlySelectCityAndOccupancy()` | Randomly selects a city and an occupancy setting. |
+| 10       | `ClickSearchHotelsButton()`        | Triggers hotel search using selected options. |
+| 11       | `ValidateSearchResultsPage()`      | Confirms that search results are loaded and localized. |
+
+
+Happy Testing! 🧪✨
