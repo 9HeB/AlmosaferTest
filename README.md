@@ -14,18 +14,7 @@ This project is an automated UI test suite for a travel booking website using **
 
 ---
 
-## 📁 Project Structure
 
-
-
-AutomationFinalProject\_april/
-├── AutomationFinalProject\_april/
-│   ├── AppTest.java           # Main test class with test cases
-│   └── TestData.java          # Contains test data used in AppTest
-
-
-
----
 
 ## ✅ Test Cases Overview
 
