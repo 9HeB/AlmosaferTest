@@ -42,5 +42,9 @@ Here’s a breakdown of all the test cases with priorities and functionality:
 | 10       | `ClickSearchHotelsButton()`        | Triggers hotel search using selected options. |
 | 11       | `ValidateSearchResultsPage()`      | Confirms that search results are loaded and localized. |
 
+---
 
-Happy Testing! 🧪✨
+
+
+
+# Happy Testing! 🧪✨
