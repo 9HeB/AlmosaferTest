@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="11" passed="9" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-05-05T14:00:58 GMT+03:00" name="Default suite" finished-at="2025-05-05T14:01:47 GMT+03:00" duration-ms="49267">
+    <groups>
+    </groups>
+    <test started-at="2025-05-05T14:00:58 GMT+03:00" name="Default test" finished-at="2025-05-05T14:01:47 GMT+03:00" duration-ms="49267">
+      <class name="AutomationFinalProject_april.AutomationFinalProject_april.AppTest">
+        <test-method is-config="true" signature="mySetup()[pri:0, instance:AutomationFinalProject_april.AutomationFinalProject_april.AppTest@3a3e78f]" started-at="2025-05-05T14:00:58 GMT+03:00" name="mySetup" finished-at="2025-05-05T14:01:04 GMT+03:00" duration-ms="5882" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mySetup -->
+        <test-method signature="CheckWebSiteLanguage()[pri:1, instance:AutomationFinalProject_april.AutomationFinalProject_april.AppTest@3a3e78f]" started-at="2025-05-05T14:01:04 GMT+03:00" name="CheckWebSiteLanguage" finished-at="2025-05-05T14:01:04 GMT+03:00" duration-ms="130" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckWebSiteLanguage -->
+        <test-method signature="CheckCurrency()[pri:2, instance:AutomationFinalProject_april.AutomationFinalProject_april.AppTest@3a3e78f]" started-at="2025-05-05T14:01:04 GMT+03:00" name="CheckCurrency" finished-at="2025-05-05T14:01:04 GMT+03:00" duration-ms="83" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCurrency -->
+        <test-method signature="CheckContactNumber()[pri:3, instance:AutomationFinalProject_april.AutomationFinalProject_april.AppTest@3a3e78f]" started-at="2025-05-05T14:01:04 GMT+03:00" name="CheckContactNumber" finished-at="2025-05-05T14:01:07 GMT+03:00" duration-ms="3067" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckContactNumber -->
+        <test-method signature="CheckQitafLogo()[pri:4, instance:AutomationFinalProject_april.AutomationFinalProject_april.AppTest@3a3e78f]" started-at="2025-05-05T14:01:07 GMT+03:00" name="CheckQitafLogo" finished-at="2025-05-05T14:01:08 GMT+03:00" duration-ms="731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckQitafLogo -->
+        <test-method signature="CheckHotelTabIsNotSelected()[pri:5, instance:AutomationFinalProject_april.AutomationFinalProject_april.AppTest@3a3e78f]" started-at="2025-05-05T14:01:08 GMT+03:00" name="CheckHotelTabIsNotSelected" finished-at="2025-05-05T14:01:08 GMT+03:00" duration-ms="59" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckHotelTabIsNotSelected -->
+        <test-method signature="FLightDepatureDate()[pri:6, instance:AutomationFinalProject_april.AutomationFinalProject_april.AppTest@3a3e78f]" started-at="2025-05-05T14:01:08 GMT+03:00" name="FLightDepatureDate" finished-at="2025-05-05T14:01:08 GMT+03:00" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FLightDepatureDate -->
+        <test-method signature="FlightReturnDate()[pri:7, instance:AutomationFinalProject_april.AutomationFinalProject_april.AppTest@3a3e78f]" started-at="2025-05-05T14:01:08 GMT+03:00" name="FlightReturnDate" finished-at="2025-05-05T14:01:08 GMT+03:00" duration-ms="47" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FlightReturnDate -->
+        <test-method signature="ChangeTheWebsiteLanguage()[pri:8, instance:AutomationFinalProject_april.AutomationFinalProject_april.AppTest@3a3e78f]" started-at="2025-05-05T14:01:08 GMT+03:00" name="ChangeTheWebsiteLanguage" finished-at="2025-05-05T14:01:11 GMT+03:00" duration-ms="3005" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeTheWebsiteLanguage -->
+        <test-method signature="RandomlySelectCityAndOccupancy()[pri:9, instance:AutomationFinalProject_april.AutomationFinalProject_april.AppTest@3a3e78f]" started-at="2025-05-05T14:01:11 GMT+03:00" name="RandomlySelectCityAndOccupancy" finished-at="2025-05-05T14:01:25 GMT+03:00" duration-ms="13352" status="FAIL">
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of element located by By.cssSelector: .autocomplete-results li:first-child (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Sohaib\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52356}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52356/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33fffef53c01de32ab36bdf5b28aed4e]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of element located by By.cssSelector: .autocomplete-results li:first-child (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.31.0', revision: '1ef9f18787*'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 135.0.7049.115, chrome: {chromedriverVersion: 135.0.7049.114 (63fd8a7d9d0..., userDataDir: C:\Users\Sohaib\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52356}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52356/devtoo..., se:cdpVersion: 135.0.7049.115, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 33fffef53c01de32ab36bdf5b28aed4e
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:84)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+at AutomationFinalProject_april.AutomationFinalProject_april.AppTest.RandomlySelectCityAndOccupancy(AppTest.java:95)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RandomlySelectCityAndOccupancy -->
+        <test-method signature="ClickSearchHotelsButton()[pri:10, instance:AutomationFinalProject_april.AutomationFinalProject_april.AppTest@3a3e78f]" started-at="2025-05-05T14:01:25 GMT+03:00" name="ClickSearchHotelsButton" finished-at="2025-05-05T14:01:39 GMT+03:00" duration-ms="14133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ClickSearchHotelsButton -->
+        <test-method signature="ValidateSearchResultsPage()[pri:11, instance:AutomationFinalProject_april.AutomationFinalProject_april.AppTest@3a3e78f]" started-at="2025-05-05T14:01:39 GMT+03:00" name="ValidateSearchResultsPage" finished-at="2025-05-05T14:01:47 GMT+03:00" duration-ms="8025" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[No hotel results found! expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: No hotel results found! expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertTrue(Assert.java:45)
+at AutomationFinalProject_april.AutomationFinalProject_april.AppTest.ValidateSearchResultsPage(AppTest.java:120)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ValidateSearchResultsPage -->
+        <test-method is-config="true" signature="AfterMyTest()[pri:0, instance:AutomationFinalProject_april.AutomationFinalProject_april.AppTest@3a3e78f]" started-at="2025-05-05T14:01:47 GMT+03:00" name="AfterMyTest" finished-at="2025-05-05T14:01:47 GMT+03:00" duration-ms="537" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AfterMyTest -->
+      </class> <!-- AutomationFinalProject_april.AutomationFinalProject_april.AppTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
